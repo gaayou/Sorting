@@ -27,7 +27,7 @@ class BubbleSort {
     public static void main(String   args[])
     {
         BubbleSort ob = new BubbleSort();
-        int arr[] = { 20, 45, 30, 77, 28, 50 };
+        int arr[] = { 20, 45, 30, 77, 28,  50 };
         ob.bubbleSort(arr);
         System.out.println("Sorted array");
         ob.printArray(arr);
